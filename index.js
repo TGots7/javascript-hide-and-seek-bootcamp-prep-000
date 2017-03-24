@@ -9,6 +9,7 @@ function deepestChild() {
       var list = document.getElementById('grand-node').querySelectorAll('div');
       var amount = list.length;
       return list[amount - 1];
+      
 }
 function increaseRankBy(n) {
   var list = document.getElementById('app').querySelectorAll('ul.ranked-list li')
